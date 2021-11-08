@@ -13,10 +13,22 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+h2 {
+  padding: 16px 0;
+}
+
 h1,
 h2 {
   font-family: "Playfair Display", serif;
-  padding: 16px 0;
+}
+
+p {
+  padding: 10px 0 15px;
+}
+
+img {
+  height: 300px;
+  width: 450px;
 }
 
 .container {
@@ -29,29 +41,34 @@ h2 {
 
 /*=====================================
 
-Menu Styling 
+Nav Bar Styling 
 
 =====================================*/
-.header {
-  display: inline-block;
-  background-color: #14203b;
+.top-bar {
   width: 100%;
+  padding: 8px;
+  background: #14203b;
   color: #f4f4f4;
+  position: fixed;
+  display: inline-block;
+}
+
+nav {
+  float: right;
 }
 
 .logo {
   font-family: "Birthstone Bounce", serif;
-  color: ;
-  text-align: left;
-  margin: 5px 20px;
+  float: left;
+  padding: 10px;
 }
 
-.menu ul li {
+nav ul li {
   display: inline-block;
   vertical-align: top;
 }
 
-.menu ul li a {
+nav ul li a {
   display: block;
   padding: 15px;
   text-decoration: none;
@@ -60,28 +77,105 @@ Menu Styling
   transition: 0.3s;
 }
 
-.menu ul li a:hover {
+nav ul li a:hover {
   color: #326986;
   transition: 0.3s;
 }
 
 /*=========================================
 
-Main Content Styling 
+Header Block Styling
 
 =========================================*/
 
 hr {
   border: none;
   border-bottom: 1px solid #616161;
-  margin: 0.3em 40%; /* 15% or whatever fixed or % value that suits your needs*/
+  margin: 1em 40%; /* 15% or whatever fixed or % value that suits your needs*/
 }
 
 .top-header {
+  background: #14203b;
+  color: #f4f4f4;
+  width: 100%;
   text-align: center;
-  padding: 50px 0 60px;
-  border: 1px solid #616161;
-  margin: 0 50px 50px;
+  padding: 100px 0;
+  height: 150px;
+}
+
+.border {
+  border: 1px solid #f4f4f4;
+  margin: 0 47px;
+  padding: 60px;
+}
+
+/*=========================================
+
+Main Content Styling
+
+=========================================*/
+
+.section1 {
+  display: inline-block;
+  width: 100%;
+  height: 300px;
+  margin: 0;
+}
+
+.text-content-1 {
+  float: left;
+  width: 415px;
+  margin: 40px 10px;
+}
+
+.image1 {
+  float: right;
+}
+
+.section2 {
+  background: #cf1974;
+  color: #f4f4f4;
+  display: inline-block;
+  width: 100%;
+  height: 300px;
+}
+
+.text-content-2 {
+  float: right;
+  width: 415px;
+  margin: 40px 10px;
+}
+
+.image2 {
+  float: left;
+}
+
+/*=========================================
+
+Button Styling 
+
+=========================================*/
+
+.button-pink {
+  background: #cf1974;
+  color: #f4f4f4;
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+
+.button-navy {
+  background: #14203b;
+  color: #f4f4f4;
+  padding: 10px 30px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #326986;
+  color: #f4f4f4;
+  transition: 0.3s;
 }
 
 /*=========================================
@@ -89,3 +183,26 @@ hr {
 Footer Styling 
 
 =========================================*/
+
+footer {
+  text-align: center;
+  background: #14203b;
+  color: #f4f4f4;
+  padding: 40px 0px;
+}
+
+footer a {
+  color: white;
+  font-size: 18px;
+  margin: 0 3px;
+  transition: 0.3s;
+}
+
+footer a:hover {
+  color: #c5c2c2;
+  transition: 0.3s;
+}
+
+footer p {
+  padding: 5px;
+}
