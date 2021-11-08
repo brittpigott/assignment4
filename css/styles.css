@@ -1,0 +1,46 @@
+/*=========================================
+
+Universal Styling 
+
+=========================================*/
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
+  padding: 16px 0;
+}
+
+.container {
+  background: white;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+/*=====================================
+
+Menu Styling 
+
+=====================================*/
+
+/*=========================================
+
+Main Content Styling 
+
+=========================================*/
+
+/*=========================================
+
+Footer Styling 
+
+=========================================*/
